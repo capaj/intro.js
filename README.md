@@ -3,15 +3,11 @@
 > Better introductions for websites and features with a step-by-step guide for your projects.
 
 ## How to use
-Intro.js can be added to your site in three simple steps:
+This fork is written in commonJS. In order to use, install with jspm or any other package manager which supports commonJS modules.
 
-**1)** Include `intro.js` and `introjs.css` (or the minified version for production) in your page. Use `introjs-rtl.min.css` for Right-to-Left language support.
+`jspm i github:capaj/intro.js`
 
-> CDN hosted files are available at [jsDelivr](http://www.jsdelivr.com/#!intro.js) (click Show More) & [cdnjs](http://cdnjs.com/#introjs).
-
-**2)** Add `data-intro` and `data-step` to your HTML elements.
-
-For example:
+Then in HTML:
 
 ```html
 <a href='http://google.com/' data-intro='Hello step one!'></a>
